@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+
+<project name="gamestool" basedir=".">
+
+
+    <target name="makejar" description="Deploy application as a WAR file">
+        <jar destfile="dist/salayzer.jar">
+            <fileset dir="classes/dist/"
+                     excludes="*/CVS*"
+                    />
+        </jar>
+    </target>
+
+
+</project>
